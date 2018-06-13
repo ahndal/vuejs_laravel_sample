@@ -44,7 +44,7 @@
                                         <i class="icon-pencil"></i>
                                     </button> &nbsp;
                                     <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalEliminar">
-                                        <i class="icon-trash"></i>
+                                        <i class="icon-trash"></i> 
                                     </button>
                                 </td>
                                 <td>{{ categories.name }}</td>
