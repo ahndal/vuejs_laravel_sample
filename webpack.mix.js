@@ -11,7 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.styles([
+mix.styles([    
     'resources/assets/admin/css/font-awesome.min.css',
     'resources/assets/admin/css/simple-line-icons.min.css',
     'resources/assets/admin/css/style.css',
@@ -23,6 +23,7 @@ mix.styles([
     'resources/assets/admin/js/Chart.min.js',
     'resources/assets/admin/js/pace.min.js',
     'resources/assets/admin/js/template.js',
+    'resources/assets/admin/js/sweetalert2.all.js'
 ], 'public/js/admin.js')
 .js([
     'resources/assets/js/app.js'
